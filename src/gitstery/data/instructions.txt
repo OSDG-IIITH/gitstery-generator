@@ -11,7 +11,11 @@ go to house number N on that street, go to the Nth ancestor. If you'd like to in
 perimeters, you can look into the commit's contents - it'll contain a hash that you can view with
 certain git commands.
 
-Think you found the culprit? Tell us!
+Think you found the culprit? 
+
+Check your solution like this for example:
+
+     curl -X POST "http://felicity.iiit.ac.in:3100/check" -d '{"username":"shamil","answer":"shamil"}'
 
 
 For an extra challenge, try and solve the mystery without ever using `git checkout`.
